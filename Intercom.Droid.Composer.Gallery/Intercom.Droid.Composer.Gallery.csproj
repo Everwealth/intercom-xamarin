@@ -57,5 +57,8 @@
   <ItemGroup>
     <LibraryProjectZip Include="Jars\android-composer-gallery-2.0.0.aar" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Intercom.Droid.Composer.Gallery.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

@@ -47,5 +47,8 @@
       <SmartLink>False</SmartLink>
     </NativeReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Intercom.iOS.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>

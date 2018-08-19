@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Intercom.Droid.Composer.Gallery</id>
+    <version>2.0.0</version>
+    <title>Intercom.Droid.Composer.Gallery</title>
+    <authors>Everwealth</authors>
+    <owners>Everwealth</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/Everwealth/intercom-xamarin</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Everwealth/intercom-xamarin/master/intercom_logo.png</iconUrl>
+    <description>Intercom Composer Gallery SDK bindings for Xamarin.Android</description>
+    <summary>Intercom Composer Gallery SDK for Xamarin.Android</summary>
+    <copyright></copyright>
+    <language></language>
+    <tags>intercom xamarin android xamarin.android</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\Intercom.Composer.Gallery.dll" target="lib\MonoAndroid" />
+  </files>
+</package>
