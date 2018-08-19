@@ -1,0 +1,46 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Droid.Base", "Intercom.Droid.Base\Intercom.Droid.Base.csproj", "{689C7BC8-BD2F-4F59-A139-3C12B1D41786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Droid.Composer", "Intercom.Droid.Composer\Intercom.Droid.Composer.csproj", "{976C8527-F784-4616-BEB2-316541298717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Droid.Composer.Gallery", "Intercom.Droid.Composer.Gallery\Intercom.Droid.Composer.Gallery.csproj", "{5BAE6D52-5309-4CDE-A9E6-F955434D67A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.Droid.Gcm", "Intercom.Droid.Gcm\Intercom.Droid.Gcm.csproj", "{13E2257A-EB1B-41AB-8DDC-C6C96736F819}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intercom.iOS", "Intercom.iOS\Intercom.iOS.csproj", "{397176C9-66BE-4D6C-AA43-B5EEA19C4DFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689C7BC8-BD2F-4F59-A139-3C12B1D41786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689C7BC8-BD2F-4F59-A139-3C12B1D41786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689C7BC8-BD2F-4F59-A139-3C12B1D41786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689C7BC8-BD2F-4F59-A139-3C12B1D41786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976C8527-F784-4616-BEB2-316541298717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976C8527-F784-4616-BEB2-316541298717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976C8527-F784-4616-BEB2-316541298717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976C8527-F784-4616-BEB2-316541298717}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BAE6D52-5309-4CDE-A9E6-F955434D67A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BAE6D52-5309-4CDE-A9E6-F955434D67A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BAE6D52-5309-4CDE-A9E6-F955434D67A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BAE6D52-5309-4CDE-A9E6-F955434D67A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E2257A-EB1B-41AB-8DDC-C6C96736F819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E2257A-EB1B-41AB-8DDC-C6C96736F819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E2257A-EB1B-41AB-8DDC-C6C96736F819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E2257A-EB1B-41AB-8DDC-C6C96736F819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397176C9-66BE-4D6C-AA43-B5EEA19C4DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397176C9-66BE-4D6C-AA43-B5EEA19C4DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397176C9-66BE-4D6C-AA43-B5EEA19C4DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397176C9-66BE-4D6C-AA43-B5EEA19C4DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
+EndGlobal
