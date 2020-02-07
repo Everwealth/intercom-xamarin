@@ -1,21 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Intercom.Droid.Gcm</id>
-    <version>5.1.1</version>
-    <title>Intercom.Droid.Gcm</title>
+    <id>Intercom.Droid.Fcm</id>
+    <version>6.0.1</version>
+    <title>Intercom.Droid.Fcm</title>
     <authors>Everwealth</authors>
     <owners>Everwealth</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/Everwealth/intercom-xamarin</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/Everwealth/intercom-xamarin/master/intercom_logo.png</iconUrl>
-    <description>Intercom GCM SDK bindings for Xamarin.Android</description>
-    <summary>Intercom GCM SDK for Xamarin.Android</summary>
+    <description>Intercom FCM SDK bindings for Xamarin.Android</description>
+    <summary>Intercom FCM SDK for Xamarin.Android</summary>
     <copyright></copyright>
     <language></language>
     <tags>intercom xamarin android xamarin.android</tags>
   </metadata>
   <files>
-    <file src="bin\release\Intercom.Gcm.dll" target="lib\MonoAndroid" />
+    <file src="bin\release\Intercom.Fcm.dll" target="lib\MonoAndroid" />
   </files>
 </package>
