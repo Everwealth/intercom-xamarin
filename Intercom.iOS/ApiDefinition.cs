@@ -281,6 +281,22 @@ namespace IntercomSDK
         [Notification]
         [Field("IntercomDidStartNewConversationNotification", "__Internal")]
         NSString IntercomDidStartNewConversationNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterWillShowNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterWillShowNotification", "__Internal")]
+        NSString IntercomHelpCenterWillShowNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterDidShowNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterDidShowNotification", "__Internal")]
+        NSString IntercomHelpCenterDidShowNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterWillHideNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterWillHideNotification", "__Internal")]
+        NSString IntercomHelpCenterWillHideNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterDidHideNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterDidHideNotification", "__Internal")]
+        NSString IntercomHelpCenterDidHideNotification { get; }
     }
 
     [Static]
@@ -309,12 +325,21 @@ namespace IntercomSDK
         // extern NSString *const _Nonnull IntercomDidStartNewConversationNotification __attribute__((visibility("default")));
         [Field("IntercomDidStartNewConversationNotification", "__Internal")]
         NSString IntercomDidStartNewConversationNotification { get; }
-    }
 
-    // @interface Experimental (Intercom)
-    [Category]
-    [BaseType(typeof(Intercom))]
-    interface Intercom_Experimental
-    {
+        // extern NSString *const _Nonnull IntercomHelpCenterWillShowNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterWillShowNotification", "__Internal")]
+        NSString IntercomHelpCenterWillShowNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterDidShowNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterDidShowNotification", "__Internal")]
+        NSString IntercomHelpCenterDidShowNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterWillHideNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterWillHideNotification", "__Internal")]
+        NSString IntercomHelpCenterWillHideNotification { get; }
+
+        // extern NSString *const _Nonnull IntercomHelpCenterDidHideNotification __attribute__((visibility("default")));
+        [Field("IntercomHelpCenterDidHideNotification", "__Internal")]
+        NSString IntercomHelpCenterDidHideNotification { get; }
     }
 }
