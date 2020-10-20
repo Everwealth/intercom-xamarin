@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>Intercom.Droid.Composer</id>
-    <version>2.0.2.1</version>
+    <version>3.1.0</version>
     <title>Intercom.Droid.Composer</title>
     <authors>Everwealth</authors>
     <owners>Everwealth</owners>
@@ -16,6 +16,6 @@
     <tags>intercom xamarin android xamarin.android</tags>
   </metadata>
   <files>
-    <file src="bin\release\Intercom.Composer.dll" target="lib\MonoAndroid" />
+    <file src="bin\release\Intercom.Composer.dll" target="lib\MonoAndroid10" />
   </files>
 </package>
